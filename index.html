@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Mina Inu</title>
+    <link rel="icon" href="minu.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
 <body>
-
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+    <header>
+        <div class="header">
+            <img src="minu.png">
+            <span class="title">Mina Inu</span>
+            <nav>
+                <ul>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="https://minascan.io" target="_blank">MinaScan</a></li>
+                    <li><a class="nav-link" href="https://discord.gg/3mzxRkfw">Discord</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <p class="first">Mina Inu ($MINU) - The First Memecoin On Mina Protocol</p>
+        <img src="minu.png">
+        <div class="claim">
+            <p class="second">Claim the $MINU airdrop!</p>
+            <p></p>
+            <br>
+            <p>Enter your Mina address:</p>
+            <input class="address">
+            <!-- <button>Claim Airdrop</button> -->
+            <button disabled>The airdrop will start after the network upgrade</button>
+        </div>
+        <p></p>
+        <br>
+        <p class="first" id="about">Tokenomics</p>
+        <span>Max Supply: 1 873 720 000 MINU</span>
+        <span>Airdrop Distribution: 75%</span>
+        <span>Future Airdrops: 20%</span>
+        <span>Development Fund: 5%</span>
+    </div>
 </body>
 </html>
