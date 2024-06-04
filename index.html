@@ -6,6 +6,8 @@
     <title>Mina Inu</title>
     <link rel="icon" href="minu.png">
 
+    <script src="script.js"></script>
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,14 +37,15 @@
             <p>You are eligible for the airdrop if you staked Mina before 4th June 2024</p>
             <br>
             <p>Enter your Mina address:</p>
-            <input class="address">
+            <input class="address" id="address" onkeypress="onChange()" onpaste="onChange()" oninput="onChange()">
+            <p class="eligible" id="eligible"></p>
             <!-- <button>Claim Airdrop</button> -->
             <button disabled>The airdrop will start after the network upgrade</button>
         </div>
         <p></p>
         <br>
         <p class="first" id="about">Tokenomics</p>
-        <span>Max Supply: 1 876 400 000 MINU</span>
+        <span>Max Supply: 1 873 720 000 MINU</span>
         <span>Airdrop Distribution: 75%</span>
         <span>Future Airdrops: 20%</span>
         <span>Development Fund: 5%</span>
