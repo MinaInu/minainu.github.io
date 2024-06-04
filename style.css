@@ -24,7 +24,7 @@ header {
 }
 
 .title {
-    min-width: 50%;
+    min-width: 30%;
     font-size: 24pt;
     font-weight: 800;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 nav {
-    min-width: 50%;
+    min-width: 70%;
     display: flex;
     justify-content: right;
 }
@@ -86,7 +86,7 @@ nav > ul {
 }
 
 .claim {
-    width: 1000px;
+    max-width: 1000px;
     height: 350px;
     background-color: white;
     border-radius: 50px;
