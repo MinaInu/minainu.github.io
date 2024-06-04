@@ -13,6 +13,8 @@ function onChange() {
             document.getElementById("eligible").textContent = "Your account is eligible for the airdrop";
         } else {
             document.getElementById("eligible").textContent = "Your account is not eligible for the airdrop";
-        }
+        } 
+    } else {
+        document.getElementById("eligible").textContent = "";
     }
 }
