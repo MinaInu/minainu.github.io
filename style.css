@@ -110,7 +110,7 @@ nav > ul {
     padding: 2px;
 }
 
-.claim > button {
+.claim > a > button {
     width: 200px;
     height: 50px;
     border-width: 0px;
