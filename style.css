@@ -116,6 +116,7 @@ nav > ul {
     border-width: 0px;
     border-radius: 10px;
     background-color: #eee;
+    margin-top: 10px;
 }
 
 .claim > button:hover:not(:disabled) {
